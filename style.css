@@ -1,0 +1,106 @@
+* {
+    
+    font-family: "Poppins";
+}
+head{
+    display:none;
+}
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+    justify-content: center;
+}
+body{
+    min-height:100vh;
+    background-color: #ffffff;
+    
+    
+    
+    
+    
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* 🔥 key fix */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+   
+    
+    padding: 20px 10px;
+
+}
+
+
+
+.timer{
+    font-size: 50px;
+    
+    position: absolute;
+
+    /* Adjust these to sit inside the black box */
+    top: 58%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+
+    
+    color: white;
+    font-weight: bold;
+    
+}
+.button-wrapper{
+    position: absolute;
+    top: 75%;   /* pushes into lower part of black box */
+    left: 52%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    gap: 50px;
+    size: 100px;
+
+}
+.button{
+    font-size: 100px;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    size: 100px;
+
+    background-color: #ffffff;
+    color: #718388;
+    
+}
+
+    
+
+
+#start{
+    background-color: #ffffff;
+    color: #2b4d58;
+    size: 100px;
+}
+#reset{
+    background-color: #ffffff;
+    color: #2b4d58;
+    size: 100px;
+}
+#stop{
+    background-color: #ffffff;
+    color: #2b4d58; 
+    size: 100px;
+}
